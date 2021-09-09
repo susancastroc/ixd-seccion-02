@@ -38,12 +38,12 @@ function setup() {
 
 function portada() {
     createSpan("Estás en index.html").parent("title");
-    createElement('p','Me gusta '+random(lorenIpsum)+' en la noche.').parent(loPrincipal);
+    createElement('p','Me gusta '+random(lorenIpsum)+'en la noche.').parent(loPrincipal);
     select("a:nth-child(1)").style("font-weight", "bold").style("color", "#000000");
 }
 
 function pagina() {
     createSpan("Estás en page.html").parent("title");
-    createElement('p','Me gusta '+random(lorenIpsum)+' en la noche.').parent(loPrincipal);
+    createElement('p','Me gusta '+random(lorenIpsum)+'en la noche.').parent(loPrincipal);
     select("a:nth-child(2)").style("font-weight", "bold").style("color", "#000000");
 }
